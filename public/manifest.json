@@ -1,11 +1,18 @@
 {
-    "name": "Discord cookies and localStorage extractor",
+    "name": "Discord cookies extractor",
     "description": "Extracts cookies and localStorage from Discord",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["activeTab", "scripting", "tabs", "cookies"],
+    "permissions": ["activeTab", "scripting", "tabs"],
     "action": {
-        "default_title": "Discord cookies and localStorage extractor"
+        "default_title": "Discord cookies extractor",
+        "default_icon": "icon48.png",
+        "icons": {
+            "16": "icon16.png",
+            "32": "icon32.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
     },
     "content_scripts": [
         {
