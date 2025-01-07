@@ -3,7 +3,7 @@
     "description": "Extracts cookies and localStorage from Discord",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["activeTab", "scripting", "tabs"],
+    "permissions": ["activeTab", "scripting", "tabs", "cookies"],
     "action": {
         "default_title": "Discord cookies extractor",
         "default_icon": "icon48.png",
